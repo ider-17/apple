@@ -44,7 +44,7 @@ header {
     width: 1920px;
 }
 
-.div {
+.main-div {
     text-align: center;
     color: white;
     margin: 0;
@@ -68,21 +68,21 @@ h5 {
 
 .button {
     background-color: #0071E3;
-    width: 130px;
-    height: 44px;
     border-color: #0071E3;
-    border: 4px;
     border-radius: 20px;
     color: white;
+    border: 0;
+    padding: 13px 24px;
 }
 
-#main-a {
-    text-decoration: none;
+.iphone16-but {
+    background-color: #F5F5F7;
+    border-color: #0071E3;
+    color: black;
 }
 
-#main-but-buy {
-    width: 73px;
-    height: 44px;
+.but-2 {
+    padding: 13px 20px;
     border: 4px;
     border-radius: 20px;
     border: 1px solid #2997FF;
@@ -90,27 +90,17 @@ h5 {
     color: #2997FF;
 }
 
+#main-a {
+    text-decoration: none;
+}
+
 #iphone16 {
     background-image: url(assets/iphone16.png);
 }
 
-#iphone16-but {
-    background-color: #F5F5F7;
-    width: 130px;
-    height: 44px;
-    border-color: #0071E3;
-    border: 4px;
-    border-radius: 20px;
-}
-
-#iphone16-but-buy {
-    width: 73px;
-    height: 44px;
-    border: 4px;
-    border-radius: 20px;
-    border: 1px solid #2997FF;
-    background-color: transparent;
+.iphone16-but2 {
     color: white;
+    border-color: white;
 }
 
 #gift {
@@ -120,7 +110,7 @@ h5 {
     align-items: end;
 }
 
-#gift-h6 {
+.gift-h6 {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
@@ -135,16 +125,116 @@ h5 {
     flex-direction: column;
     padding-bottom: 30px;
 }
+
 #sub-sect {
     height: 1740px;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
+
 .sub-sect-div {
     width: 942px;
     height: 580px;
     background-size: cover;
 }
+
 #ipad {
     background-image: url(assets/ipad.png)
+}
+
+.airpod {
+    background-image: url(airpod.png);
+}
+
+.watch {
+    background-image: url(assets/watch.png);
+}
+
+.macbook {
+    background-image: url(assets/macbook.png);
+}
+
+.trade-in {
+    background-image: url(assets/trade-in.png);
+}
+
+.card {
+    background-image: url(assets/card.png);
+}
+
+.ipad-air {
+    padding-top: 60px;
+}
+
+.ipad-p {
+    color: black;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.ipad-hello {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 280px;
+}
+
+.ipad-air-hello {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    background: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+.airpods-p {
+    color: white;
+    margin-top: 0;
+}
+
+.airpods-pro {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+}
+
+.aipods-pro-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.i-watch {
+    padding-top: 50px;
+}
+
+.mac-div {
+    color: black;
+}
+
+.trade-p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.apple-tv {
+    height: 705px;
+    width: 1920px;
+}
+.scroll-con {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.fly-me {
+    width: 1250px;
+    height: 667px;
+}
+.scroll-con img {
+    padding: 10px;
 }
