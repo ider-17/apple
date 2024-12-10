@@ -225,16 +225,42 @@ h5 {
     height: 705px;
     width: 1920px;
 }
+
 .scroll-con {
     background-color: white;
-    overflow: auto;
+    overflow-x: scroll;
     white-space: nowrap;
     padding: 10px;
 }
+
 .fly-me {
     width: 1250px;
     height: 667px;
 }
+
 .scroll-con img {
     padding: 10px;
+}
+.news {
+    width: 1920px;
+    height: 292px;
+}
+.fitness {
+    width: 417px;
+    height: 236px;
+}
+.more {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    position: absolute;
+    top: 85px;
+    left: 650px;
 }
