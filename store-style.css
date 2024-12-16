@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: fit-content;
+}
+
+.header-ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.sub-header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 10px;
+}
+
+header {
+    position: fixed;
+    background-color: #f5f4f7;
+    width: 100%;
+    z-index: 3;
+}
+
+.gradient {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.gradient :nth-child(1) {
+    width: 60vw;
+    height: 50px;
+    top: -40px;
+    left: 0;
+    background: #4186fd;
+    border-radius: 50%;
+    filter: blur(10px);
+    position: absolute;
+    z-index: 1;
+}
+
+.gradient :nth-child(2) {
+    width: 30vw;
+    height: 50px;
+    background: #e9a5ff;
+    top: -40px;
+    left: -25%;
+    right: 0;
+    margin: 0 auto;
+    filter: blur(10px);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.gradient :nth-child(3) {
+    width: 40vw;
+    height: 50px;
+    background: #ff3f98;
+    top: -40px;
+    left: 0;
+    right: -20vw;
+    margin: 0 auto;
+    filter: blur(10px);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.gradient :nth-child(4) {
+    width: 40vw;
+    height: 50px;
+    background: #fd8c1f;
+    top: -40px;
+    border-radius: 50%;
+    right: 0vw;
+    filter: blur(10px);
+    position: absolute;
+    z-index: 1;
+}
+
+.store {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.store-p {
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 52px;
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.gift-p {
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 52px;
+    padding-left: 5px;
+    color: #6E6E73;
+}
+
+.prof {
+    padding-right: 100px;
+    display: flex;
+}
+
+.img-prof {
+    width: 40px;
+    height: 40px;
+}
+
+.prof-h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.prof-div {
+    padding: 0;
+    flex-direction: column;
+}
+
+.prof-a {
+    font-weight: 400;
+}
+
+.prof-h4-2 {
+    padding-top: 20px;
+}
+
+.store-pic {
+    padding: 0;
+}
+
+.iMac {
+    width: 170px;
+}
+
+.store-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.store-pic-p {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    color: #1D1D1F;
+}
+
+.store-con {
+    overflow-x: scroll;
+}
+
+.wonders-p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.wonders-h6 {
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.wonder {
+    display: flex;
+    padding-left: 200px;
+}
+
+.wonders-h6-2 {
+    color: #6E6E73;
+}
+.wonder-card {
+    width: 480px;
+    height: 500px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/8cee/8a34/ee4ba9b658ae0be05611d11ea5d55e1b?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FUytaNUZ~oiFxuZQ3SFMBzkdL7aJ06-OXgrTCMmlIQ0a2gKNKqQhReHGXLWwKN89LQsSGGm6g-M6VlSAz5c1-2jTRHDRO2anbTfhHB4M~vq6SKi0DpO~l4iJNVJEeRQzd5ManCzaPGDCLTb8~WiKuPQNax~DL-Dlff~yFwOGLPrFSiYdIihCZDd4Ci74Hj~NNv4Ji89wvDaje95CQrnvrkDPzb2dcqVxfoqSvSh4Oh1ucCig9DwnJgj46Sxfyx41RFQUC8N7PhL4aeeiL6z74D0VCZNs~V~ZbxOoxEAKZ6VDx1IUkXdEDWz9ZEXm~zTTUxreTwtWNx56~lCZsnmx2A__);
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    position: relative;
+}
+.card-p {
+    position: absolute;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    color: #B64400;
+    top: 30px;
+    left: 30px;
+}
+.card-h5 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #1D1D1F;
+    top: 30px;
+    left: 30px;
+}
+.card-p-2 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    top: 100px;
+    left: 30px;
+}
