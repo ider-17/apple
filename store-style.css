@@ -495,3 +495,50 @@ header {
 .special-card-4 {
     background-image: url(https://s3-alpha-sig.figma.com/img/a960/f7ee/fe8796ce51144b229909100094a59989?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gZj4adiqz6cSdvVn-Ax9ls1zLiuc4-tnyPjiDzkpApByl3BlMlRsjZ4r7v9ooYuVsyt67oX3tiSJQRrQL~lpcWT1a51tSjWx4GNRNLcf9WpRBMdFZxnhotTWDjFwpIKiKtsIFaFwjZ4AjFq3d4qaGdH1oBKxz4Hc23OUwdKZ~y2gkJhrt-bLdz6EwliI6RAhE4sNGq7hByCOiNW5WJuIUhyFWqJk4pfrq1yK4WUXYtVjOqzxzXk7CPbwS-yrvipAO0cb-TdgJgBecBsF6ro3dgFDjuCMJMyow0v4WFjmUdBOkqbY4GaYVe9Pwqb-QfPQXxxX3G2nN6HtsAiDyI2iXg__);
 }
+
+.end-div {
+    display: flex;
+    gap: 10px;
+    margin-left: 95px;
+    margin-bottom: 50px;
+}
+
+.end {
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    padding: 15px;
+}
+
+.size-2 {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 769px) {
+    header li {
+        display: none;
+    }
+    li:first-of-type {
+        display: block;
+        position: absolute;
+        left: 10px;
+    }
+    li:nth-last-child(1) {
+        display: block;
+        position: absolute;
+        right: 30px;
+    }
+    li:nth-last-child(2) {
+        display: block;
+        position: absolute;
+        right: 60px;
+    }
+    header {
+        position: relative;
+        position: fixed;
+        height: 50px;
+    }
+}
