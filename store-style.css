@@ -425,7 +425,7 @@ header {
     margin-bottom: 20px;
 }
 
-.only-apple-card-2 { 
+.only-apple-card-2 {
     min-width: 480px;
     height: 500px;
     position: relative;
@@ -484,6 +484,7 @@ header {
 .special-card-2 {
     background-image: url(https://s3-alpha-sig.figma.com/img/c29a/91c0/05069048c5e1b877cf3142fa2fab6067?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j7KoXdD7uTBOduE4S4lpzFkNn3mFYE7F8NNX3~w9iN2CKgzePGIdCAy7WnUUsvpkgdM2l1741YRZ-0URoS3EI1FHVK-buQOwgQq5gls43BoB0qnp~lVtRvTG~mz74elT2eVPuD8PJL8hNUMwpL~drTPgw8bHR1fg-hK7~46JTN54aPLiWim1A-6PNkp-j4Hhr8HdnaVpIFCZtAsAvyX51tG1XWSz8z9Mg6xzn0bb09NESZL1k6OkuCed28QmnsqECzQecxpU~4i2Gq~dN3EgVuVdIY-Dz2PpawY6nwOJj3JJFoXGEGX9ywdUcUn4wLT5gj4OcUucd5R9fXJQ2T170A__);
 }
+
 .spe {
     min-width: 400px;
     position: relative;
@@ -492,6 +493,7 @@ header {
 .special-card-3 {
     background-image: url(https://s3-alpha-sig.figma.com/img/60a4/9ef1/a49579aa398f78daa8ab814a87b543dc?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q8aRt2Cf0etOZLgNNBdnNfBj8j1SE6truAtEYuyk33S6rLVL9v7eY5J5e24BNvCE6LzjSOv4-c1U53ohq8qGfBFULTGJVkZaobEd11GJgS42ugo4oH7N2vg6q8YBUpkiFTsQUOtyN8pUwVc5GOtfMlcPj1AtahEEHXObxvD2SrNMKpJSH1rchuhrLogDfE0Uq32fbxcK31veXfdEM2xHyDwnhc3WY7DeGFghIgP0MnKgbiMbD0AWuHzglcQdKpECHG7c-iG0zmZxd9bOLbVrX4eYNdET-8TN4H5SvvjX8alwlylXMuVoTvgMQt4YTQl6vjtBJBrS1L1ext8aeSvc9A__);
 }
+
 .special-card-4 {
     background-image: url(https://s3-alpha-sig.figma.com/img/a960/f7ee/fe8796ce51144b229909100094a59989?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gZj4adiqz6cSdvVn-Ax9ls1zLiuc4-tnyPjiDzkpApByl3BlMlRsjZ4r7v9ooYuVsyt67oX3tiSJQRrQL~lpcWT1a51tSjWx4GNRNLcf9WpRBMdFZxnhotTWDjFwpIKiKtsIFaFwjZ4AjFq3d4qaGdH1oBKxz4Hc23OUwdKZ~y2gkJhrt-bLdz6EwliI6RAhE4sNGq7hByCOiNW5WJuIUhyFWqJk4pfrq1yK4WUXYtVjOqzxzXk7CPbwS-yrvipAO0cb-TdgJgBecBsF6ro3dgFDjuCMJMyow0v4WFjmUdBOkqbY4GaYVe9Pwqb-QfPQXxxX3G2nN6HtsAiDyI2iXg__);
 }
@@ -521,24 +523,33 @@ header {
     header li {
         display: none;
     }
+
     li:first-of-type {
         display: block;
         position: absolute;
         left: 10px;
     }
+
     li:nth-last-child(1) {
         display: block;
         position: absolute;
         right: 30px;
     }
+
     li:nth-last-child(2) {
         display: block;
         position: absolute;
         right: 60px;
     }
+
     header {
         position: relative;
         position: fixed;
         height: 50px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .prof {
+        display: none;
     }
 }
